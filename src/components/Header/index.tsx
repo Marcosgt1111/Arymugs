@@ -6,7 +6,7 @@ const Header = () => {
             <div className="container mx-auto px-4 py-4 flex justify-between items-center bg-red-300">
                 <div className="flex items-center">
                     <div>
-                        <Image src="/assets/arymugs_logo.svg" alt="logo" width={150} height={150} />
+                        <Image src="/assets/ary_mugs.png" alt="logo" width={150} height={150} />
                     </div>
                     <div className="ml-4">
                         <input
