@@ -2,11 +2,10 @@ import Image from 'next/image';
 
 const Header = () => {
     return (
-        <header className="bg-white shadow">
-            <div className="container mx-auto px-4 py-4 flex justify-between items-center bg-red-300">
+        <header className="shadow p-4 flex justify-between items-center bg-red-300">
                 <div className="flex items-center">
                     <div>
-                        <Image src="/assets/ary_mugs.png" alt="logo" width={150} height={150} />
+                        <Image src="/assets/arymugs_logo.svg" alt="logo" width={60} height={60} />
                     </div>
                     <div className="ml-4">
                         <input
@@ -15,7 +14,7 @@ const Header = () => {
                             className="px-4 py-2 border rounded"
                         />
                     </div>
-                    <nav className="ml-4">
+                    <nav className="">
                         <a href="#" className="px-4 py-2 text-gray-700">Produtos</a>
                         <a href="#" className="px-4 py-2 text-gray-700">Favoritos</a>
                         <a href="#" className="px-4 py-2 text-gray-700">Carrinho</a>
@@ -31,7 +30,6 @@ const Header = () => {
                         Criar conta
                     </button>
                 </div>
-            </div>
         </header>
     );
 };
