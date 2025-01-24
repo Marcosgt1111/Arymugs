@@ -17,13 +17,14 @@ const Header = () => {
 
             </div>
 
-            <nav className="flex items-center">
-                <a href="#" className="px-4 py-2 text-gray-700">Produtos</a>
-                <a href="#" className="px-4 py-2 text-gray-700">Favoritos</a>
-                <a href="#" className="px-4 py-2 text-gray-700">Carrinho</a>
-            </nav>
-
             <div className="flex items-center space-x-3 > * + *">
+
+                <nav className="">
+                    <a href="#" className="px-4 py-2 text-gray-700">Produtos</a>
+                    <a href="#" className="px-4 py-2 text-gray-700">Favoritos</a>
+                    <a href="#" className="px-4 py-2 text-gray-700">Carrinho</a>
+                </nav>
+
                 <button
                     className="bg-transparent hover:bg-pink-600 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
                     Entrar
