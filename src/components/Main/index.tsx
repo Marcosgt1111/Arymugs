@@ -1,3 +1,5 @@
+
+
 const Main = () => {
     return (
         <div
@@ -7,7 +9,7 @@ const Main = () => {
             }}
         >
             <div>
-                <h1>
+                <h1 class="absolute inset-y-0 left-0">
                     FAÇA JÁ SUA ENCOMENDA<br />E TENHA SUA CANECA<br />PERSONALIZADA
                 </h1>
                 <p>
