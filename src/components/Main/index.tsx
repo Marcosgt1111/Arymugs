@@ -8,8 +8,8 @@ const Main = () => {
                 backgroundImage: 'url("images/bg.jpg")',
             }}
         >
-            <div>
-                <h1 class="absolute inset-y-0 left-0">
+            <div class="start inset-y-0 left-0 text-2xl font-mono">
+                <h1>
                     FAÇA JÁ SUA ENCOMENDA<br />E TENHA SUA CANECA<br />PERSONALIZADA
                 </h1>
                 <p>
